@@ -1,7 +1,8 @@
+cmake_minimum_required(VERSION 2.8.10.2)
+
 #list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/CMake/")
 #include(${CMAKE_SOURCE_DIR}/CMake/cmake_patch.cmake)
 project (test_gl_app)
-
 
 set(CTC_LIB_GUI_APP_SRCS
   test1.cpp)
