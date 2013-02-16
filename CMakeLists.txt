@@ -19,6 +19,6 @@ if (QNX_BUILD)
   include(${CMAKE_SOURCE_DIR}/CMake/cmake_patch.cmake)
 endif()
 
-add_library(guitest123 STATIC ${CTC_LIB_GUI_APP_SRCS} )
-#add_executable( guitest123 ${CTC_LIB_GUI_APP_SRCS}  )
+#add_library(guitest123 STATIC ${CTC_LIB_GUI_APP_SRCS} )
+add_executable( guitest123 ${CTC_LIB_GUI_APP_SRCS}  )
 target_link_libraries(guitest123  ${deps11})
